@@ -91,7 +91,7 @@ query QueryReview($reviewId: ID!) {
 }
 ```
 
-# Variables
+### Variables
 
 ```json
 // query game
@@ -122,7 +122,7 @@ mutation AddMutation($game: AddGameInput!) {
 }
 ```
 
-## Variables
+### Variables
 
 ```json
 {
@@ -145,7 +145,7 @@ mutation DeleteMutation($id: ID!) {
 }
 ```
 
-## Variables
+### Variables
 
 ```json
 {
@@ -165,7 +165,7 @@ mutation EditMutation($updateGameId: ID!, $edits: EditGameInput) {
 }
 ```
 
-## Variables
+### Variables
 
 ```json
 {
